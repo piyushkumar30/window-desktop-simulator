@@ -1,0 +1,89 @@
+.chromeicon {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+
+}
+
+.chromeicon:hover {
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.spotifyicon {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    /* top: 10rem;
+    left: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.spotifyicon:hover {
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.calendericon {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    /* top: 17rem;
+    left: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.calendericon:hover {
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.notepadicon {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    /* top: 25rem;
+    left: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.notepadicon:hover {
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.chromeicon img {
+    height: 50px;
+    width: 50px;
+
+}
+
+.spotifyicon img {
+    height: 50px;
+    width: 50px;
+
+}
+
+.calendericon img {
+    height: 50px;
+    width: 50px;
+
+}
+
+.notepadicon img {
+    height: 50px;
+    width: 50px;
+}

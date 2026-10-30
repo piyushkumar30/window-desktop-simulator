@@ -1,0 +1,147 @@
+.textbar {
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: linear-gradient(90deg, #0f172a, #1e3a5f);
+}
+
+.leftside,
+.rightside {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 6rem;
+    height: 40px;
+    transition: background 0.3s ease;
+    border-radius: 6px;
+
+}
+
+.weather:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.weather img {
+    height: 35px;
+    width: 35px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 6px;
+    transition: background 0.3s ease;
+
+}
+
+.icon:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.icons img {
+    height: 26px;
+    width: 26px;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.search img {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    filter: invert(1);
+}
+
+.search input {
+    padding-left: 35px;
+    height: 1.9rem;
+    width: 13rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: gray;
+    outline: none;
+
+}
+
+.search input::placeholder {
+    color: white;
+    font-size: 13px;
+}
+
+.systemicon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    width: 6rem;
+    border-radius: 6px;
+    transition: background 0.3 ease;
+}
+
+.systemicon:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.systemicon img {
+    height: 20px;
+    width: 20px;
+    filter: invert(1);
+
+
+}
+
+.datetime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background 0.3 ease;
+    border-radius: 6px;
+    height: 35px;
+    width: 5rem;
+
+}
+
+.datetime:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.datetime span {
+    color: white;
+    font-size: 14px;
+}
